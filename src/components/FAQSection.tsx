@@ -9,19 +9,19 @@ export const FAQSection = () => {
   const faqs = [
     {
       question: "Is this coaching?",
-      answer: "It's a clarity consultation. We identify your main bottleneck, set an End sentence, pick one technique, and offer a coaching recommendation.",
+      answer: "It's a clarity & diagnostic call, not a full coaching session. You'll still leave with a concrete End sentence, one tool to start with, and insight into your main pattern.",
     },
     {
       question: "Do I leave with a full plan?",
-      answer: "Not from the consult. You'll receive a short recap and a recommended coaching route where your full plan is built.",
+      answer: "You'll leave with a focused starting point: End state, technique, and micro-step. If you want a full, structured plan, Amara will explain the coaching options.",
     },
     {
       question: "Do I need Neville experience?",
-      answer: "No—Valentine keeps it simple and practical.",
+      answer: "No. If you're brand new, Amara will keep it simple. If you're advanced, she'll help refine and deepen what you already do.",
     },
     {
       question: "Is it really free?",
-      answer: "Yes. If a program fits, we'll mention it—no pressure.",
+      answer: "Yes. There's no charge for this 30-minute consult. If you choose to coach with Amara afterwards, pricing and options will be clearly explained.",
     },
   ];
 

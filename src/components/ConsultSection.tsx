@@ -6,22 +6,22 @@ import { CountdownTimer } from "@/components/CountdownTimer";
 export const ConsultSection = () => {
   const consultSteps = [
     {
-      title: "A quick diagnostic of your primary bottleneck",
+      title: "A quick diagnostic of your primary energetic/subconscious bottleneck",
     },
     {
-      title: "Your End sentence (already-done outcome)",
+      title: "Your personal End state sentence (the already-done identity)",
     },
     {
       title: "One recommended technique to begin",
-      description: "(Inner Speech / SATS / Revision)",
+      description: "(Inner Speech / SATS / Revision / Somatic support)",
     },
     {
-      title: "One micro step for tonight",
-      description: "(under 5 minutes)",
+      title: "One micro-step for tonight",
+      description: "(under 5 minutes, designed to be doable)",
     },
     {
       title: "A brief recap email",
-      description: "End sentence, technique recommendation, suggested next step",
+      description: "End sentence, recommended technique, suggested next step",
     },
   ];
 

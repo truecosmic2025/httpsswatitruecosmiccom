@@ -4,15 +4,19 @@ export const MicroStepsSection = () => {
   const techniques = [
     {
       title: "If Inner Speech is chosen:",
-      step: 'When the old label shows up, say your new identity line once and move on: "I respond as someone it already worked for."',
+      step: 'When the old story shows up ("This always goes wrong"), pause and say your new line once, calmly: "I respond as the version of me it already worked out for." Then move on. No arguments. No debate.',
     },
     {
       title: "If SATS is chosen:",
-      step: "Tonight, run a 10–20 second scene seed twice (one place, one touch, one line you hear), calmly.",
+      step: "Tonight, before sleep, run one 10–20 second scene: One place, One simple touch (a hand squeeze, a hug, a high-five), One short line you hear that confirms it's done. Repeat it twice in a relaxed, drowsy state.",
     },
     {
       title: "If Revision is chosen:",
-      step: "Take one moment from today that carried the old story; re-see it once with your new meaning, then carry on.",
+      step: "Choose one moment from today that carried the old pattern. Re-see it once with the new you: New meaning, New reaction, New outcome. Then let it go and carry on.",
+    },
+    {
+      title: "If somatic grounding is chosen:",
+      step: "When triggered, place a hand on your chest, take three slow breaths, and repeat your new identity line on the exhale.",
     },
   ];
 
@@ -25,10 +29,10 @@ export const MicroStepsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             Sample Micro-Steps
           </h2>
-          <p className="text-xl text-muted-foreground">Based on the technique</p>
+          <p className="text-xl text-muted-foreground">Based on the technique we choose together</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {techniques.map((technique, index) => (
             <Card key={index} className="bg-card/50 backdrop-blur border-border/50">
               <CardHeader>

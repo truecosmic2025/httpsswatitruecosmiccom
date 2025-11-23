@@ -4,17 +4,18 @@ import { Check, X } from "lucide-react";
 
 export const ProblemSection = () => {
   const problems = [
-    "You flip between confidence and self-doubt—your actions never quite match the goal.",
-    "Old inner labels keep pulling you back into yesterday's identity.",
-    "You know the tools, but consistency slips after a few days.",
-    "You want a steady self-concept so success feels normal, not lucky.",
+    "You feel a split between what you say you want and how you actually show up.",
+    "Old stories (\"I'm not enough\", \"It never works for me\") keep pulling you back into the same cycle.",
+    "You know about manifestation, but your nervous system still reacts like the old you.",
+    "You see small wins… then sabotage, stall, or slide back.",
+    "You're ready to feel powerful and safe in your own choices—without forcing or pretending.",
   ];
 
   const solutions = [
-    "A fast read on your primary bottleneck.",
-    "One clean End sentence you can live from.",
-    "One recommended technique to begin (Inner Speech / SATS / Revision).",
-    "A personal recommendation for the coaching route that fits your aim.",
+    "A fast read on your primary subconscious bottleneck.",
+    "One clear \"I AM\" identity line you can begin to live from.",
+    "One recommended starting technique (Inner Speech / SATS / Revision / Somatic grounding).",
+    "A personal recommendation for the coaching route that fits your aim and your bandwidth.",
   ];
 
   return (
