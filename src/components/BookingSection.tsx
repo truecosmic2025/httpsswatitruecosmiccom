@@ -11,7 +11,7 @@ export const BookingSection = () => {
     },
     {
       number: "2",
-      title: "Pick a time with Cheryl",
+      title: "Pick a time with Amara",
       description: "Choose a convenient slot from our calendar",
     },
     {
@@ -21,8 +21,8 @@ export const BookingSection = () => {
     },
     {
       number: "4",
-      title: "We meet on Zoom/phone",
-      description: "You'll leave with a clear plan",
+      title: "Meet on Zoom/phone",
+      description: "You'll leave with a clearer End state and a practical starting point",
     },
   ];
 
@@ -33,10 +33,10 @@ export const BookingSection = () => {
       <div className="container max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Book Your Free Session
+            Start a Conversation to See If You're a Fit
           </h2>
           <p className="text-xl text-muted-foreground">
-            Start a conversation to see if we're a fit
+            Let's Talk About Your Goals
           </p>
         </div>
 

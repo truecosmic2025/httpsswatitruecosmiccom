@@ -7,18 +7,18 @@ export const UseCasesSection = () => {
   const useCases = [
     {
       icon: DollarSign,
-      title: "Career & Income",
-      description: "Operate as the person who's selected and compensated.",
+      title: "Career & Money",
+      description: "Operate as the person who is chosen, valued, and well-paid, instead of chasing worthiness.",
     },
     {
       icon: Heart,
       title: "Love & Relationships",
-      description: "Interact as the secure, chosen version of you.",
+      description: "Show up as the secure, wanted version of you—able to receive love without shrinking or performing.",
     },
     {
       icon: Sparkles,
-      title: "Peace & Presence",
-      description: "Walk through the day with a steadier baseline.",
+      title: "Peace, Presence & Purpose",
+      description: "Move through the day with a steadier baseline, less overthinking, and a clearer sense of direction.",
     },
   ];
 

@@ -6,15 +6,15 @@ export const DifferenceSection = () => {
   const differences = [
     {
       title: "Diagnostic, not theory",
-      description: "We isolate one bottleneck that actually matters.",
+      description: "We're not here to \"talk manifestation\" in the abstract. We isolate one bottleneck that actually matters.",
     },
     {
       title: "One tool at a time",
-      description: "Clarity beats trying everything at once.",
+      description: "No more trying every technique at once. Clarity beats overwhelm.",
     },
     {
       title: "No pressure",
-      description: "If it's a fit, you get a clear coaching recommendation.",
+      description: "If it's a fit, you'll get a clear coaching recommendation. If not, you still leave with an End sentence and a first step.",
     },
   ];
 

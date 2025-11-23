@@ -7,15 +7,15 @@ export const InnerConversationsSection = () => {
   const characteristics = [
     {
       title: "Short and kind",
-      description: "One calm line—no inner arguments.",
+      description: "One calm line. No inner wars. No screaming at your mind.",
     },
     {
       title: "Identity-led",
-      description: "Act from the person who already has it.",
+      description: "You act from the self who already lives your result—not from the self who's still begging for it.",
     },
     {
       title: "Cue-based",
-      description: "Tie the practice to a real daily moment.",
+      description: "You tie practice to real daily moments, so it becomes part of your life, not a performance.",
     },
   ];
 
@@ -26,8 +26,11 @@ export const InnerConversationsSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            What Self-Concept Practice Feels Like
+            What Inner Power Practice Feels Like
           </h2>
+          <p className="text-xl text-muted-foreground mb-8">
+            Short, kind, and grounded in Neville's principles.
+          </p>
           <div className="max-w-2xl mx-auto mb-8">
             <img 
               src={innerPeace} 
@@ -59,7 +62,7 @@ export const InnerConversationsSection = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Try It with Valentine — Free
+            Try It with Amara — Free
           </Button>
         </div>
       </div>

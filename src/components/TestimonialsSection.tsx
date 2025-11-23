@@ -9,20 +9,20 @@ import testimonialAvatar3 from "@/assets/testimonial-avatar-3.jpg";
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      text: "I stopped negotiating with my old self. Everything felt simpler.",
-      author: "Sarah M.",
+      text: "I stopped reacting like the powerless version of me. Decisions feel cleaner and lighter.",
+      author: "Laura S.",
       role: "",
       avatar: testimonialAvatar1,
     },
     {
-      text: "One line changed how I showed up in conversations.",
-      author: "James K.",
+      text: "One simple line Amara gave me completely changed how I handled a difficult conversation.",
+      author: "David R.",
       role: "",
       avatar: testimonialAvatar2,
     },
     {
-      text: "Tiny steps made it stick—no overwhelm.",
-      author: "Rachel T.",
+      text: "For the first time, the practices were small enough that I actually did them—and the results followed.",
+      author: "Maya L.",
       role: "",
       avatar: testimonialAvatar3,
     },
