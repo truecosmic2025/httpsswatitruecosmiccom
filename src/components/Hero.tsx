@@ -1,6 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Sparkles, CheckCircle2 } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 
 export const Hero = () => {
@@ -24,24 +22,24 @@ export const Hero = () => {
       <div className="container relative z-10 max-w-5xl mx-auto text-center">
         {/* Main headline */}
         <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-          Awaken the Inner Power Life Says{" "}
+          Manifest Your Reality With the Power of{" "}
           <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
-            "Yes" To
+            Imagination
           </span>
         </h1>
 
         {/* Subheadline */}
         <p className="mb-8 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Reserve a <span className="text-primary font-semibold">free 30-minute Inner Power clarity consult</span> with <span className="font-semibold text-foreground">Amara InnerPower</span>. We'll spot the real energetic block, choose <span className="font-semibold text-foreground">one practice</span> to start with, and outline the <span className="font-semibold text-foreground">coaching path</span> that helps you live from your true power—not from old limits.
+          Reserve a <span className="text-primary font-semibold">free 30-minute clarity session</span> with <span className="font-semibold text-foreground">Swati Mahapatra</span>. Together we'll identify what's blocking your manifestation, choose <span className="font-semibold text-foreground">one powerful technique</span> to start with, and map out your path to <span className="font-semibold text-foreground">effortless abundance</span>—living from clarity, not confusion.
         </p>
 
         {/* Trust badges */}
         <div className="flex flex-wrap justify-center gap-4 mb-10 text-sm text-muted-foreground">
-          <span>Warm, judgment-free</span>
+          <span>Law of Assumption based</span>
           <span className="text-muted-foreground/50">•</span>
-          <span>Neville-based methods</span>
+          <span>Neville Goddard methods</span>
           <span className="text-muted-foreground/50">•</span>
-          <span>Subconscious shifts that stick</span>
+          <span>Manifestation made effortless</span>
         </div>
 
         {/* CTA Buttons */}
@@ -51,7 +49,7 @@ export const Hero = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 text-lg h-14"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Book Your Clarity Consultation
+            Book Your Free Clarity Session
           </Button>
           <Button 
             size="lg" 
@@ -59,13 +57,13 @@ export const Hero = () => {
             className="border-foreground/30 text-foreground hover:bg-foreground/10 px-8 text-lg h-14"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            See How Inner Power Changes Results
+            See How Imagination Changes Everything
           </Button>
         </div>
 
         {/* Micro-copy */}
         <p className="text-sm text-muted-foreground max-w-2xl mx-auto italic">
-          This is a <span className="font-semibold">diagnostic call</span>, not a full coaching session. If coaching fits, you'll get a clear recommendation—<span className="font-semibold">no pressure</span>.
+          This is a <span className="font-semibold">discovery call</span>, not a full coaching session. If coaching is right for you, you'll receive a clear recommendation—<span className="font-semibold">no pressure</span>.
         </p>
       </div>
     </section>
