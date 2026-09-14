@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { openClauddeChat } from "@/lib/claudde";
 import heroBackground from "@/assets/hero-background.jpg";
 
 export const Hero = () => {

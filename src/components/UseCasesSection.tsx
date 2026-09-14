@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Heart, DollarSign, Sparkles } from "lucide-react";
+import { openClauddeChat } from "@/lib/claudde";
 import useCaseCareer from "@/assets/use-case-career.jpg";
 
 export const UseCasesSection = () => {

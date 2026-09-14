@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import { TrendingUp } from "lucide-react";
+import { openClauddeChat } from "@/lib/claudde";
 
 export const CTASection = () => {
   return (
