@@ -54,7 +54,10 @@ export const ProblemSection = () => {
               </ul>
               <Button 
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-                onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => {
+                  document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+                  openClauddeChat();
+                }}
               >
                 Book Your Clarity Consultation
               </Button>
