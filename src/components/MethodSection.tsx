@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import methodIllustration from "@/assets/method-illustration.jpg";
+import { openClauddeChat } from "@/lib/claudde";
 
 export const MethodSection = () => {
   const steps = [
@@ -83,7 +84,10 @@ export const MethodSection = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
-            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => {
+              document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+              openClauddeChat();
+            }}
           >
             Find Your Best-Fit Path
           </Button>
